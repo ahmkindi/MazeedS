@@ -1,0 +1,8 @@
+﻿/* Source SASS file to build custom Bootstrap site file */
+@import "../wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css";
+@import "Bootstrap/scss/_functions";
+@import "Bootstrap/Custom/_variables";
+@import "Bootstrap/scss/bootstrap";
+@import "Bootstrap/Custom/_overrides";
+/* This is the original site.css file that contains the site specific customizations*/
+@import "custom.scss";
